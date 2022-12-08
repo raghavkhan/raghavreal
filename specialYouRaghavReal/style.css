@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* first section(navBar section) */
+
+.navBar {
+    display: flex;
+    font-size: 2rem;
+    background-color: #c2255c;
+    color: whitesmoke;
+    justify-content: space-between;
+    /* position: fixed; */
+}
+
+.start{display:flex;}
+.end{display:flex;}
+
+.searchBar{display:flex;}
+.navFourth{display:flex;}
+.navFirst{
+    height:2rem;
+    width:2rem;
+    
+}
+.heartContainer{
+    height:4rem;
+    width:4rem;
+}
+.cartContainer{
+    height:4rem;
+    width:4rem;
+}
+.userContainer{
+    height:4rem;
+    width:4rem;
+}
+.navFourth{
+    height:4rem;
+    width:4rem;
+    color:white;
+    
+}
+.searchContainer{
+    height:2rem;
+    width:2rem;
+}
+/* .navFirst {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navSecond {
+    display: flex;
+    justify-content: center;
+}
+
+.navFourth {
+    display: flex;
+    gap: 3rem;
+}
+
+.navbarIcons {
+    height: 3rem;
+    width: 3rem;
+}
+
+/* second section(search and table section) */
+
+/* .second {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.searchbarContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.searchBar {
+    display: flex;
+    border: 4px solid #ced4da;
+    justify-content: space-between;
+    height: 2rem;
+    width: 20rem;
+    border-radius: 10rem;
+    /* border: 2px solid #343a40; */
+    /* background-color: #ced4da; */
+    /* color: #868e96; */
+/* } */
+
+/* .searchText {
+    color: #212529;
+
+} */
+
+/* .searchIcon {} */ 

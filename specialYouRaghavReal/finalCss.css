@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.navBar{
+    background: #F9F5FF;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:7vh;
+    width:100vw;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    font-size:16px;
+    font-weight:400;
+    font-family: 'Montserrat';
+
+    
+    
+}
+.start{display:flex;
+gap:2rem;}
+.end{display:flex;
+gap:2rem;}
+.searchBar{display:flex;}
+.shapeContainer{
+    height:2rem;
+    width:2rem;
+}
+
+
+.slides{
+    background:url('image1.webp');
+    height:40vh;
+    width:100vh;
+}
